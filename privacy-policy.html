@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy | Carvic Cakes & Bakes</title>
+<meta name="description" content="How Carvic Cakes & Bakes collects and uses information from customers.">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; base-uri 'self'; form-action 'self'; frame-ancestors 'self';">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .policy-page { padding: 150px 0 100px; max-width: 760px; margin: 0 auto; }
+  .policy-page h1 { font-size: clamp(2rem, 4vw, 2.8rem); margin-bottom: 8px; }
+  .policy-page .updated { color: var(--charcoal); opacity: .6; font-size: 0.85rem; margin-bottom: 40px; }
+  .policy-page h2 { font-size: 1.3rem; margin: 34px 0 12px; }
+  .policy-page p, .policy-page li { color: var(--charcoal); font-size: 0.98rem; }
+  .policy-page ul { padding-left: 20px; list-style: disc; margin: 10px 0; }
+  .policy-note {
+    background: var(--cream); border: 1px solid var(--line);
+    padding: 16px 18px; font-size: 0.85rem; margin-bottom: 34px;
+  }
+  .back-link { display:inline-block; margin-top: 40px; font-weight: 600; border-bottom: 1px solid var(--black); }
+</style>
+</head>
+<body>
+
+<header class="site-header is-scrolled" id="siteHeader">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">CARVIC</span>
+      <span class="brand-sub">Cakes &amp; Bakes</span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html#story">Story</a>
+      <a href="index.html#menu">Menu</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#visit">Visit</a>
+      <a href="index.html#order" class="nav-cta">Order Now</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main class="wrap policy-page">
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: [add date] &nbsp;·&nbsp; Carvic Cakes &amp; Bakes, Chennai</p>
+
+  <p class="policy-note">
+    This page is a starting template so your site isn't missing this policy — it is
+    <strong>not legal advice</strong>. Please review and customise it (or have a
+    professional review it) before relying on it for your business.
+  </p>
+
+  
+        <h2>What we collect</h2>
+        <p>When you message us to place an order (via WhatsApp, Instagram, or this website), we collect the details you share directly with us — for example your name, phone number, delivery address, and order preferences.</p>
+
+        <h2>How we use it</h2>
+        <ul>
+          <li>To prepare, confirm, and deliver your order</li>
+          <li>To contact you about order status, changes, or delays</li>
+          <li>To improve our menu and service based on customer feedback</li>
+        </ul>
+
+        <h2>How we don't use it</h2>
+        <p>We do not sell your personal information to third parties. We do not use your data for purposes unrelated to fulfilling your order or improving our service.</p>
+
+        <h2>Third-party services</h2>
+        <p>Orders placed through this site are sent via WhatsApp, which is operated by Meta Platforms, Inc. and governed by its own privacy policy. Our Instagram page is governed by Instagram's privacy policy.</p>
+
+        <h2>Contact us</h2>
+        <p>For questions about this policy or your data, message us on WhatsApp or Instagram using the links on our homepage.</p>
+        
+
+  <a class="back-link" href="index.html">← Back to Carvic Cakes &amp; Bakes</a>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-bottom" style="border:0; padding-top:0;">
+    <span>© <span id="year"></span> Carvic Cakes &amp; Bakes. All rights reserved.</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  document.getElementById("navToggle").addEventListener("click", function () {
+    document.getElementById("mainNav").classList.toggle("is-open");
+  });
+</script>
+</body>
+</html>

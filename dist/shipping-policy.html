@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shipping & Delivery Policy | Carvic Cakes & Bakes</title>
+<meta name="description" content="Delivery areas, timing, and charges for Carvic Cakes & Bakes orders.">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; base-uri 'self'; form-action 'self'; frame-ancestors 'self';">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .policy-page { padding: 150px 0 100px; max-width: 760px; margin: 0 auto; }
+  .policy-page h1 { font-size: clamp(2rem, 4vw, 2.8rem); margin-bottom: 8px; }
+  .policy-page .updated { color: var(--charcoal); opacity: .6; font-size: 0.85rem; margin-bottom: 40px; }
+  .policy-page h2 { font-size: 1.3rem; margin: 34px 0 12px; }
+  .policy-page p, .policy-page li { color: var(--charcoal); font-size: 0.98rem; }
+  .policy-page ul { padding-left: 20px; list-style: disc; margin: 10px 0; }
+  .policy-note {
+    background: var(--cream); border: 1px solid var(--line);
+    padding: 16px 18px; font-size: 0.85rem; margin-bottom: 34px;
+  }
+  .back-link { display:inline-block; margin-top: 40px; font-weight: 600; border-bottom: 1px solid var(--black); }
+</style>
+</head>
+<body>
+
+<header class="site-header is-scrolled" id="siteHeader">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">CARVIC</span>
+      <span class="brand-sub">Cakes &amp; Bakes</span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html#story">Story</a>
+      <a href="index.html#menu">Menu</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#visit">Visit</a>
+      <a href="index.html#order" class="nav-cta">Order Now</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main class="wrap policy-page">
+  <h1>Shipping & Delivery Policy</h1>
+  <p class="updated">Last updated: [add date] &nbsp;·&nbsp; Carvic Cakes &amp; Bakes, Chennai</p>
+
+  <p class="policy-note">
+    This page is a starting template so your site isn't missing this policy — it is
+    <strong>not legal advice</strong>. Please review and customise it (or have a
+    professional review it) before relying on it for your business.
+  </p>
+
+  
+        <h2>Delivery area</h2>
+        <p>We currently deliver within [add your delivery radius / areas in Chennai]. Message us with your location to confirm we can deliver to you.</p>
+
+        <h2>Delivery timing</h2>
+        <p>Standard orders are delivered within the time slot you select at checkout (Morning / Afternoon / Evening). We recommend scheduling at least 24 hours in advance for the best availability, especially for custom cakes.</p>
+
+        <h2>Delivery charges</h2>
+        <p>[Add your delivery fee structure here — e.g. free above a certain order value, flat fee below it.]</p>
+
+        <h2>Pickup</h2>
+        <p>Pickup is available from our kitchen at [add address]. We'll confirm the exact pickup window when we confirm your order.</p>
+
+        <h2>Delays</h2>
+        <p>While we aim to meet every scheduled time, factors like weather or traffic can occasionally cause delays. We'll notify you as early as possible if this happens.</p>
+        
+
+  <a class="back-link" href="index.html">← Back to Carvic Cakes &amp; Bakes</a>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-bottom" style="border:0; padding-top:0;">
+    <span>© <span id="year"></span> Carvic Cakes &amp; Bakes. All rights reserved.</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  document.getElementById("navToggle").addEventListener("click", function () {
+    document.getElementById("mainNav").classList.toggle("is-open");
+  });
+</script>
+</body>
+</html>

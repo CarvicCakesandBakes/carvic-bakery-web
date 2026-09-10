@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Refund Policy | Carvic Cakes & Bakes</title>
+<meta name="description" content="Cancellation and refund terms for Carvic Cakes & Bakes orders.">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; base-uri 'self'; form-action 'self'; frame-ancestors 'self';">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .policy-page { padding: 150px 0 100px; max-width: 760px; margin: 0 auto; }
+  .policy-page h1 { font-size: clamp(2rem, 4vw, 2.8rem); margin-bottom: 8px; }
+  .policy-page .updated { color: var(--charcoal); opacity: .6; font-size: 0.85rem; margin-bottom: 40px; }
+  .policy-page h2 { font-size: 1.3rem; margin: 34px 0 12px; }
+  .policy-page p, .policy-page li { color: var(--charcoal); font-size: 0.98rem; }
+  .policy-page ul { padding-left: 20px; list-style: disc; margin: 10px 0; }
+  .policy-note {
+    background: var(--cream); border: 1px solid var(--line);
+    padding: 16px 18px; font-size: 0.85rem; margin-bottom: 34px;
+  }
+  .back-link { display:inline-block; margin-top: 40px; font-weight: 600; border-bottom: 1px solid var(--black); }
+</style>
+</head>
+<body>
+
+<header class="site-header is-scrolled" id="siteHeader">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">CARVIC</span>
+      <span class="brand-sub">Cakes &amp; Bakes</span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html#story">Story</a>
+      <a href="index.html#menu">Menu</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#visit">Visit</a>
+      <a href="index.html#order" class="nav-cta">Order Now</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main class="wrap policy-page">
+  <h1>Refund Policy</h1>
+  <p class="updated">Last updated: [add date] &nbsp;·&nbsp; Carvic Cakes &amp; Bakes, Chennai</p>
+
+  <p class="policy-note">
+    This page is a starting template so your site isn't missing this policy — it is
+    <strong>not legal advice</strong>. Please review and customise it (or have a
+    professional review it) before relying on it for your business.
+  </p>
+
+  
+        <h2>Cancellations</h2>
+        <p>Orders can be cancelled free of charge up to [add cutoff, e.g. 24 hours] before the scheduled delivery/pickup time. Cancellations closer to the scheduled time may not be eligible for a full refund, since ingredients are often already prepared.</p>
+
+        <h2>Refund eligibility</h2>
+        <ul>
+          <li>Order cancelled within the allowed window — full refund</li>
+          <li>Item damaged in transit or incorrect item delivered — full refund or replacement</li>
+          <li>Change of mind after the cutoff window — refund at our discretion</li>
+        </ul>
+
+        <h2>How to request a refund</h2>
+        <p>Message us on WhatsApp with your order details and the reason for the request. We aim to respond within 24 hours.</p>
+
+        <h2>Refund method</h2>
+        <p>Approved refunds are returned via the original payment method where possible, or as store credit if agreed with the customer.</p>
+        
+
+  <a class="back-link" href="index.html">← Back to Carvic Cakes &amp; Bakes</a>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-bottom" style="border:0; padding-top:0;">
+    <span>© <span id="year"></span> Carvic Cakes &amp; Bakes. All rights reserved.</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  document.getElementById("navToggle").addEventListener("click", function () {
+    document.getElementById("mainNav").classList.toggle("is-open");
+  });
+</script>
+</body>
+</html>
